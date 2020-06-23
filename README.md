@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Code for NIST PSCR DIfferential Privacy Synthetic Data Challenge
+# Code and Data for NIST PSCR DIfferential Privacy Synthetic Data Challenge
 
 This repo contains code used to generate all the results in the
 *Comparative Study of Differentially Private Synthetic Data Algorithms
@@ -58,6 +58,9 @@ additional
 
 This directory contains the `.R` scripts for the used in the paper
 except for some basic functions that we will list in the next section.
+
+**NOTE:** We do not have the code that were used to calculate the NIST
+PSCR specific metrics. We only received the final agreggated results.
 
 ### Commonly Used R Functions
 
