@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Code and Data for NIST PSCR DIfferential Privacy Synthetic Data Challenge
+# Code and Data for NIST PSCR Differential Privacy Synthetic Data Challenge
 
 This repo contains code used to generate all the results in the
 *Comparative Study of Differentially Private Synthetic Data Algorithms
@@ -61,6 +61,13 @@ except for some basic functions that we will list in the next section.
 
 **NOTE:** We do not have the code that were used to calculate the NIST
 PSCR specific metrics. We only received the final agreggated results.
+
+  - `specks.R` is the R script to calculate the SPECKS metric.
+
+### data Directory
+
+This directory contains the differentially private synthetic data
+generated for the NIST PSCR Data Challenge.
 
 ### Commonly Used R Functions
 
