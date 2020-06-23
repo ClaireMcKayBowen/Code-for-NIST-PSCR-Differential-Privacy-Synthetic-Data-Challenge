@@ -62,6 +62,16 @@ except for some basic functions that we will list in the next section.
 **NOTE:** We do not have the code that were used to calculate the NIST
 PSCR specific metrics. We only received the final agreggated results.
 
+  - `marginal_utility.R` is the R script to calculate the marginal
+    distances based on p-values.
+  - `pmse_CART_utility.R` is the R script to estimate pmse and null pmse
+    using CART models.
+  - `radarchart_function.R` is the R script “Really Useful Synthetic
+    Data - A Framework to Evaluate the Quality of Differentially Private
+    Synthetic Data” to generate the radarcharts.
+  - `regression_utility.R` is the R script to calculate the mean and
+    median standardized coefficient difference and confidence interval
+    overlap for all regression coefficients.
   - `specks.R` is the R script to calculate the SPECKS metric.
 
 ### data Directory
@@ -82,8 +92,9 @@ data.
 
 ### Commonly Used R Functions
 
-The following is a list of R functions we used from other packages or in
-base R to generate our results.
+The following is a list of R functions we used from other packages to
+generate our results.
 
+  - `rpart()` from `rpart` implements CART.
   - `utility.gen()` from `synthpop` calculates the *pMSE*-ratio and
     other utility metrics.

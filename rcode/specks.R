@@ -4,10 +4,10 @@
 
 # Function for SPECKS
 # INPUTS:
-#     dat_ori: original data (df)
+#   dat_ori: original data (df)
 #   dat_synth: synthetic data (df)
 # OUTPUTS:
-#          ks: SPECKS output, ks dist. (num)
+#   ks: SPECKS output, ks dist. (num)
 
 specks <- function(dat_ori, dat_synth) {
   N <- nrow(dat_ori)				# Number of observations
