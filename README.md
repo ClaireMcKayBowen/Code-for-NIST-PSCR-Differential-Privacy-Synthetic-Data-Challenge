@@ -3,7 +3,7 @@
 
 # Code and Data for NIST PSCR Differential Privacy Synthetic Data Challenge
 
-This repo contains code used to generate all the results in the
+This repo/folder contains code used to generate all the results in the
 *Comparative Study of Differentially Private Synthetic Data Algorithms
 from the NIST PSCR Differential Privacy Synthetic Data Challenge* by
 Bowen and Snoke. Paper can be found in arxiv
@@ -39,9 +39,12 @@ future data products.
 ### Recommended Libraries
 
 We recommend the following libraries to execute some of the code or
-additional
-    functions.
+additional functions.
 
+  - [rpart](https://cran.r-project.org/web/packages/rpart/rpart.pdf) is
+    a package to apply recursive partitioning for classificaiton,
+    regression and survival
+    trees.
   - [synthpop](https://cran.r-project.org/web/packages/synthpop/synthpop.pdf)
     is a “tool for producing synthetic versions of microdata containing
     confidential information so that they are safe to be released to
@@ -50,9 +53,6 @@ additional
   - [tidyverse](https://www.tidyverse.org/) is a suite of R packages by
     RStudio that help with data structure, data analysis, and data
     visualization.
-  - [rpart](https://cran.r-project.org/web/packages/rpart/rpart.pdf) is
-    a package to apply recursive partitioning for classificaiton,
-    regression and survival trees.
 
 ### rcode Directory
 
