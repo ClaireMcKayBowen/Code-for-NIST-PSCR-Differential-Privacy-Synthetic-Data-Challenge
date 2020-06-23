@@ -9,7 +9,7 @@ from the NIST PSCR Differential Privacy Synthetic Data Challenge* by
 Bowen and Snoke. Paper can be found in arxiv
 [here](https://arxiv.org/abs/1911.12704).
 
-## Abstract
+### Abstract
 
 Differentially private synthetic data generation offers a recent
 solution to release analytically useful data while preserving the
@@ -36,7 +36,25 @@ Finally we describe the implications of our evaluation for policymakers
 seeking to implement differentially private synthetic data algorithms on
 future data products.
 
-## File Directory
+### Recommended Libraries
 
-  - 
-  - `rcode` directory contains all the `.R` scripts used in the paper.
+We recommend the following libraries to execute some of the code or
+additional
+    functions.
+
+  - [synthpop](https://cran.r-project.org/web/packages/synthpop/index.html)
+    is a “tool for producing synthetic versions of microdata containing
+    confidential information so that they are safe to be released to
+    users for exploratory analysis”. This library contains the code for
+    calculating *pMSE*-ratio.
+  - [tidyverse](https://www.tidyverse.org/) is a suite of R packages by
+    RStudio that help with data structure, data analysis, and data
+    visualization.
+  - [rpart](https://cran.r-project.org/web/packages/rpart/rpart.pdf) is
+    a package to apply recursive partitioning for classificaiton,
+    regression and survival trees.
+
+### File Directory
+
+  - `rcode` directory contains the `.R` functions for the used in the
+    paper except *pMSE*-ratio since that function is in `synthpop`.
