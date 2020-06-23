@@ -49,7 +49,7 @@ additional functions.
     is a “tool for producing synthetic versions of microdata containing
     confidential information so that they are safe to be released to
     users for exploratory analysis”. This library contains the code for
-    calculating *pMSE*-ratio.
+    calculating various utility metric such as *pMSE*-ratio.
   - [tidyverse](https://www.tidyverse.org/) is a suite of R packages by
     RStudio that help with data structure, data analysis, and data
     visualization.
@@ -72,7 +72,8 @@ PSCR specific metrics. We only received the final agreggated results.
   - `regression_utility.R` is the R script to calculate the mean and
     median standardized coefficient difference and confidence interval
     overlap for all regression coefficients.
-  - `specks.R` is the R script to calculate the SPECKS metric.
+  - `specks.R` is the R script to calculate the SPECKS metric using
+    logistic regression main effect model.
 
 ### data Directory
 
@@ -95,6 +96,5 @@ data.
 The following is a list of R functions we used from other packages to
 generate our results.
 
+  - `glm()` from base R implements logistic regression.
   - `rpart()` from `rpart` implements CART.
-  - `utility.gen()` from `synthpop` calculates the *pMSE*-ratio and
-    other utility metrics.

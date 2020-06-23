@@ -21,7 +21,7 @@ specks <- function(dat_ori, dat_synth) {
   colnames(dat_test)[1] <- "Treat"
   
   dat_test$Treat <- as.factor(dat_test$Treat)
-  mod <- suppressWarnings(glm(Treat ~ .^2, dat_test, family = binomial(link = "logit")))
+  mod <- glm(Treat ~ ., dat_test, family = binomial(link = "logit"))
   dat_pscore <- predict(mod, dat_test, type = "response")
   
   # Compare propensity score by comparing ECDFs using KS Distance --------------------------------------------------------	

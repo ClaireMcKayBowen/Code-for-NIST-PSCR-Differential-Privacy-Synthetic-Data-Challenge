@@ -23,7 +23,7 @@ Differentially private synthetic data generation offers a recent solution to rel
 We recommend the following libraries to execute some of the code or additional functions.
 
 - [rpart](https://cran.r-project.org/web/packages/rpart/rpart.pdf) is a package to apply recursive partitioning for classificaiton, regression and survival trees.
-- [synthpop](https://cran.r-project.org/web/packages/synthpop/synthpop.pdf) is a "tool for producing synthetic versions of microdata containing confidential information so that they are safe to be released to users for exploratory analysis". This library contains the code for calculating *pMSE*-ratio. 
+- [synthpop](https://cran.r-project.org/web/packages/synthpop/synthpop.pdf) is a "tool for producing synthetic versions of microdata containing confidential information so that they are safe to be released to users for exploratory analysis". This library contains the code for calculating various utility metric such as *pMSE*-ratio. 
 - [tidyverse](https://www.tidyverse.org/) is a suite of R packages by RStudio that help with data structure, data analysis, and data visualization.
 
 ### rcode Directory
@@ -36,7 +36,7 @@ This directory contains the `.R` scripts for the used in the paper except for so
 - `pmse_CART_utility.R` is the R script to estimate pmse and null pmse using CART models.
 - `radarchart_function.R` is the R script "Really Useful Synthetic Data - A Framework to Evaluate the Quality of Differentially Private Synthetic Data" to generate the radarcharts.
 - `regression_utility.R` is the R script to calculate the mean and median standardized coefficient difference and confidence interval overlap for all regression coefficients.
-- `specks.R` is the R script to calculate the SPECKS metric.
+- `specks.R` is the R script to calculate the SPECKS metric using logistic regression main effect model.
 
 ### data Directory
 
@@ -53,8 +53,8 @@ Waiting for approval from NIST PSCR to provide the original and the competitors'
 
 The following is a list of R functions we used from other packages to generate our results.
 
+- `glm()` from base R implements logistic regression.
 - `rpart()` from `rpart` implements CART.
-- `utility.gen()` from `synthpop` calculates the *pMSE*-ratio and other utility metrics.
 
 
 
