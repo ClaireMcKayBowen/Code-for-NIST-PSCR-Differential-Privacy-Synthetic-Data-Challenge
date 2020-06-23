@@ -42,7 +42,7 @@ We recommend the following libraries to execute some of the code or
 additional
     functions.
 
-  - [synthpop](https://cran.r-project.org/web/packages/synthpop/index.html)
+  - [synthpop](https://cran.r-project.org/web/packages/synthpop/synthpop.pdf)
     is a “tool for producing synthetic versions of microdata containing
     confidential information so that they are safe to be released to
     users for exploratory analysis”. This library contains the code for
@@ -54,7 +54,15 @@ additional
     a package to apply recursive partitioning for classificaiton,
     regression and survival trees.
 
-### File Directory
+### rcode Directory
 
-  - `rcode` directory contains the `.R` functions for the used in the
-    paper except *pMSE*-ratio since that function is in `synthpop`.
+This directory contains the `.R` scripts for the used in the paper
+except for some basic functions that we will list in the next section.
+
+### Commonly Used R Functions
+
+The following is a list of R functions we used from other packages or in
+base R to generate our results.
+
+  - `utility.gen()` from `synthpop` calculates the *pMSE*-ratio and
+    other utility metrics.
