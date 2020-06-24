@@ -21,20 +21,20 @@ qualities of the synthetic data. In this paper, we present an in-depth
 evaluation of several differentially private synthetic data algorithms
 using actual differentially private synthetic data sets created by
 contestants in the recent National Institute of Standards and Technology
-Public Safety Communications Research (NIST PSCR) Division’s
-\`\`Differential Privacy Synthetic Data Challenge.’’ We offer analyses
-of these algorithms based on both the accuracy of the data they create
-and their usability by potential data providers. We frame the methods
-used in the NIST PSCR data challenge within the broader differentially
-private synthetic data literature. We implement additional utility
-metrics, including two of our own, on the differentially private
-synthetic data and compare mechanism utility on three categories. Our
-comparative assessment of the differentially private data synthesis
-methods and the quality metrics shows the relative usefulness, general
-strengths and weaknesses, preferred choices of algorithms and metrics.
-Finally we describe the implications of our evaluation for policymakers
-seeking to implement differentially private synthetic data algorithms on
-future data products.
+Public Safety Communications Research (NIST PSCR) \`\`Differential
+Privacy Synthetic Data Challenge.’’ We offer analyses of these
+algorithms based on both the accuracy of the data they create and their
+usability by potential data providers. We frame the methods used in the
+NIST PSCR data challenge within the broader differentially private
+synthetic data literature. We implement additional utility metrics,
+including two of our own, on the differentially private synthetic data
+and compare mechanism utility on three categories. Our comparative
+assessment of the differentially private data synthesis methods and the
+quality metrics shows the relative usefulness, general strengths and
+weaknesses, preferred choices of algorithms and metrics. Finally we
+describe the implications of our evaluation for policymakers seeking to
+implement differentially private synthetic data algorithms on future
+data products.
 
 ### Recommended Libraries
 
