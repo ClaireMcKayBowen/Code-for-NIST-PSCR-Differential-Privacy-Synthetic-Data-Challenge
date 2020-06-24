@@ -42,12 +42,12 @@ This directory contains the `.R` scripts for the used in the paper except for so
 
 The [Urban Data Catalog](https://datacatalog.urban.org/dataset/2018-differential-privacy-synthetic-data-challenge-datasets) contains the differentially private synthetic data generated for the NIST PSCR Data Challenge. The following are the data sets (original and the competitors' differentially private synthetic data). We compressed the data by team and by match due to the file size.
 
-**NOTE:** The data contains only a subset of the possible variables and the ACS PUMS is the 1940 Decennial Census data.
+**NOTE:** The data contains only a subset of the possible variables and the PUMS is the 1940 Decennial Census data.
 
 - 2006 San Francisco Fire Department’s Call for Service Data
 - 2017 San Francisco Fire Department’s Call for Service Data
-- Arizona ACS PUMS
-- Vermont ACS PUMS
+- Arizona PUMS
+- Vermont PUMS
 
 ### Commonly Used R Functions
 

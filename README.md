@@ -86,12 +86,12 @@ the competitors’ differentially private synthetic data). We compressed
 the data by team and by match due to the file size.
 
 **NOTE:** The data contains only a subset of the possible variables and
-the ACS PUMS is the 1940 Decennial Census data.
+the PUMS is the 1940 Decennial Census data.
 
   - 2006 San Francisco Fire Department’s Call for Service Data
   - 2017 San Francisco Fire Department’s Call for Service Data
-  - Arizona ACS PUMS
-  - Vermont ACS PUMS
+  - Arizona PUMS
+  - Vermont PUMS
 
 ### Commonly Used R Functions
 
