@@ -60,7 +60,8 @@ This directory contains the `.R` scripts for the used in the paper
 except for some basic functions that we will list in the next section.
 
 **NOTE:** We do not have the code that were used to calculate the NIST
-PSCR specific metrics. We only received the final agreggated results.
+PSCR Data Challenge specific metrics. We only received the final
+agreggated results.
 
   - `marginal_utility.R` is the R script to calculate the marginal
     distances based on p-values.
