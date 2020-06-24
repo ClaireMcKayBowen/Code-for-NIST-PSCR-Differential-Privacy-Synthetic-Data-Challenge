@@ -77,19 +77,17 @@ PSCR specific metrics. We only received the final agreggated results.
 
 ### data Directory
 
-Waiting for approval from NIST PSCR to provide the original and the
-competitors’ differentially private synthetic
-data.
+The [Urban Data
+Catalog](https://datacatalog.urban.org/dataset/2018-differential-privacy-synthetic-data-challenge-datasets)
+contains the differentially private synthetic data generated for the
+NIST PSCR Data Challenge. The following are the data sets (original and
+the competitors’ differentially private synthetic data). We compressed
+the data by team and by match due to the file size.
 
-<!-- This directory contains the differentially private synthetic data generated for the NIST PSCR Data Challenge. The following are the data sets (original and the competitors' differentially private synthetic data). We compressed the data by team within the data type folder due to data storage limitations on GitHub.  -->
-
-<!-- - 2006 San Francisco Fire Department’s Call for Service Data -->
-
-<!-- - 2017 San Francisco Fire Department’s Call for Service Data -->
-
-<!-- - Arizona PUMS -->
-
-<!-- - Vermont PUMS -->
+  - 2006 San Francisco Fire Department’s Call for Service Data
+  - 2017 San Francisco Fire Department’s Call for Service Data
+  - Arizona ACS PUMS
+  - Vermont ACS PUMS
 
 ### Commonly Used R Functions
 
