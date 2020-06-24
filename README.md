@@ -66,9 +66,10 @@ PSCR specific metrics. We only received the final agreggated results.
     distances based on p-values.
   - `pmse_CART_utility.R` is the R script to estimate pmse and null pmse
     using CART models.
-  - `radarchart_function.R` is the R script “Really Useful Synthetic
+  - `radarchart_function.R` is the R script “[Really Useful Synthetic
     Data - A Framework to Evaluate the Quality of Differentially Private
-    Synthetic Data” to generate the radarcharts.
+    Synthetic Data](https://arxiv.org/abs/2004.07740)” to generate the
+    radarcharts.
   - `regression_utility.R` is the R script to calculate the mean and
     median standardized coefficient difference and confidence interval
     overlap for all regression coefficients.
@@ -83,6 +84,9 @@ contains the differentially private synthetic data generated for the
 NIST PSCR Data Challenge. The following are the data sets (original and
 the competitors’ differentially private synthetic data). We compressed
 the data by team and by match due to the file size.
+
+**NOTE:** The data contains only a subset of the possible variables and
+the ACS PUMS is the 1940 Decennial Census data.
 
   - 2006 San Francisco Fire Department’s Call for Service Data
   - 2017 San Francisco Fire Department’s Call for Service Data
