@@ -6,8 +6,8 @@
 This repo/folder contains code used to generate all the results in the
 *Comparative Study of Differentially Private Synthetic Data Algorithms
 from the NIST PSCR Differential Privacy Synthetic Data Challenge* by
-Bowen and Snoke. Paper can be found in arxiv
-[here](https://arxiv.org/abs/1911.12704).
+Bowen and Snoke. Paper can be found in the Journal of Privacy and Confidentiality
+[here](https://journalprivacyconfidentiality.org/index.php/jpc/article/view/748/707).
 
 ### Abstract
 
